@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav_logo{
+    height: 55px;
+    width: 120px;
+    background-size: cover;
+    
+}
+.logo{
+    background-image:url("https://www.pngplay.com/wp-content/uploads/3/White-Amazon-Logo-Background-PNG-Image.png") ;
+    background-size: cover;
+    height:50px ;
+    width: 80%;
+    zoom: 175%;
+    align-items: center;
+
+}
+.border{
+   border: 2px solid transparent; 
+}
+.border:hover{
+    border:1.5px solid white;
+}
+
+.deliver{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.location{
+    font-size: 1rem;
+    margin-left: 3px;
+
+    
+}
+.addicon{
+    display: flex;
+    align-items: center;
+}
+.navsearch{
+    display: flex;
+    justify-content:space-evenly ;
+    background-color: white;
+    width: 620px;
+    height: 45px;
+    border-radius: 3px;
+    
+    
+    
+    
+}
+.navsearch:hover{
+    border: 2px solid orange ;
+}
+.search{
+      background-color: #f3f3f3;
+      width: 50px;
+      text-align: center;
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4PX;
+      border: none;
+      
+    }
+.searchinput{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+
+}    
+.searchicon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.2rem ;
+    background-color:#febd68;
+    border-top-right-radius:8px ;
+    border-bottom-right-radius:8px ;
+    color: #0f1111;
+
+}
+span{
+    font-size: 12px;
+
+}
+.navsecond{
+    font-size: 14px;
+    font-weight: 900;
+    padding-left: 9px;
+    padding-right: 9px;
+    
+
+}
+.navcart i{
+    font-size: 30px;
+    
+}
+.navcart{
+    font-size: 0.85rem;
+    font-weight: 700;
+
+}
+.navcart:hover{
+    border:1.5px solid white;
+}
+
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly
+
+}
+
+.panelopt p{
+    display: inline;
+    color: white;
+    margin-left: 10px;
+}
+.panel p:hover{
+    border: solid white;
+}
+.panelopt{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.paneldeals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+
+/**Hero section**/
+.herosection{
+    background-image: url("https://m.media-amazon.com/images/I/61CiqVTRBEL._SX3000_.jpg");
+    background-size: cover;
+    height:300px ;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.heromessage{
+    color:black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+
+}
+.heromessage a {
+    color: #007185;
+}
+/**Shop Section**/
+.shopsection{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #bdc5c3;;
+    
+}
+.box{
+    border: 1px solid black;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    
+}
+.box1{
+    background-image: url("https://s3.amazonaws.com/homestratosphere/wp-content/uploads/2016/06/21105824/2w-living-room-white-furniture.jpg");
+    background-size: cover;
+}   
+.box2{
+    background-image: url("https://image.freepik.com/free-photo/electronic-devices-composition_23-2147791607.jpg");
+    background-size: cover;
+}
+.box3{
+    background-image: url("https://images.unsplash.com/photo-1512436991641-6745cdb1723f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+    background-size: cover;
+}
+.box4{
+    background-image: url("https://wallpaperaccess.com/full/2069552.jpg");
+    background-size: cover;
+}
+
+.boxmessage{
+    color:black;
+    background-color: white transparent;
+    opacity: 0.92;
+    border: #007185;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 0.85rem;
+    width: 100%;
+    margin-top: 125%;
+    
+    
+    }
+  
+
+
